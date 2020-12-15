@@ -27,6 +27,7 @@ type HelmChartSpec struct {
 	Bootstrap       bool                          `json:"bootstrap,omitempty"`
 	ChartContent    string                        `json:"chartContent,omitempty"`
 	JobImage        string                        `json:"jobImage,omitempty"`
+	NodeTaints		string                        `json:"nodeTaints,omitempty"`
 }
 
 type HelmChartStatus struct {
